@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+<p>Hello</p>
+
+<p th:text="${id}">VALUE</p>
+<div th:each="list : ${list}">
+    <a th:href="@{/people/{id}(id=${list.getId()})}" th:text="${list.getName()}">user</a>
+</div>
+
+<form action="/submit" method="post">
+    <input type="text" name="name" />
+    <input type="submit" value="Submit" />
+</form>
+
+</body>
+</html>

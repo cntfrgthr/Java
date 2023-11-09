@@ -1,0 +1,11 @@
+<!--<web-app>-->
+<!--<servlet>-->
+<!--    <servlet-name>HelloWorld</servlet-name>-->
+<!--    <servlet-class>org.example.config.MainServlet</servlet-class>-->
+<!--</servlet>-->
+
+<!--<servlet-mapping>-->
+<!--<servlet-name>HelloWorld</servlet-name>-->
+<!--<url-pattern>/*</url-pattern>-->
+<!--</servlet-mapping>-->
+<!--</web-app>-->
